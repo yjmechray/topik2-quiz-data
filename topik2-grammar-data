@@ -1633,6 +1633,330 @@
                 "korean": "기분 나쁘니?",
                 "english": "Do you feel uncomfortable?"
             }
+        },
+
+         {
+            "question": "작업하다 ______ 새벽이 됐어요.",
+            "hint": "Discovering a result after continuing an action for some time.",
+            "options": ["-다(가) 보니까", "-는 동안", "-고 나서"],
+            "answer": "-다(가) 보니까",
+            "explanation": {
+                "correct": "<p><code>-다(가) 보니까</code> is used when you discover something new or an unexpected result occurs as a consequence of continuing an action. 'While I was working, (I realized that) it was already dawn'.</p>",
+                "incorrect": {
+                    "-는 동안": "<p><code>-는 동안</code> simply marks the time period during which an action took place, without the nuance of discovery.</p>",
+                    "-고 나서": "<p><code>-고 나서</code> indicates a sequence; the first action finishes before the second one starts.</p>"
+                }
+            },
+            "example": {
+                "korean": "작업하다 보니까 새벽이 됐어요.",
+                "english": "While I was focusing on my work, it was already morning."
+            }
+        },
+        {
+            "question": "심호흡하다 ______ 마음이 차분해집니다.",
+            "hint": "Expressing a general truth that if one continues an action, a certain result will follow.",
+            "options": ["-다(가) 보면", "-(으)면", "-(으)면서"],
+            "answer": "-다(가) 보면",
+            "explanation": {
+                "correct": "<p><code>-다(가) 보면</code> is used to express that if you continue doing an action, you will eventually reach a certain state or realize something. It's a general truth based on experience. 'If you keep deep breathing, your mind will become calm'.</p>",
+                "incorrect": {
+                    "-(으)면": "<p><code>-(으)면</code> is a simple 'if' condition. '-다(가) 보면' adds the nuance of 'continuing the action over time'.</p>",
+                    "-(으)면서": "<p><code>-(으)면서</code> means two actions happen simultaneously.</p>"
+                }
+            },
+            "example": {
+                "korean": "심호흡하다 보면 마음이 차분해집니다.",
+                "english": "When you focus on breathing deeply, you will feel calmer."
+            }
+        },
+        {
+            "question": "스마트폰을 사용하______ 모르면 물어보세요.",
+            "hint": "An action is interrupted to start a new, different action.",
+            "options": ["-다가", "-고", "-는데"],
+            "answer": "-다가",
+            "explanation": {
+                "correct": "<p><code>-다가</code> indicates that the first action was in progress, then was interrupted or stopped, and a new action began. 'While you are using your smartphone, if you don't know something (interrupting your usage), ask'.</p>",
+                "incorrect": {
+                    "-고": "<p><code>-고</code> simply connects actions in sequence.</p>",
+                    "-는데": "<p><code>-는데</code> provides background context, but '-다가' is better for showing the interruption of one action by another.</p>"
+                }
+            },
+            "example": {
+                "korean": "스마트폰을 사용하다가 모르면 물어보세요.",
+                "english": "When you don't know something while using a smartphone, please come and ask."
+            }
+        },
+        {
+            "question": "보다______ 요즘 직장인들은 바빠요.",
+            "hint": "Confirming something that the listener also likely knows or can see.",
+            "options": ["-다시피", "-는 것처럼", "-는 대로"],
+            "answer": "-다시피",
+            "explanation": {
+                "correct": "<p><code>-다시피</code> means 'as you (know/see/hear)...'. It is used to refer to a fact that is already known to the listener. 'As you can see, office workers these days are busy'.</p>",
+                "incorrect": {
+                    "-는 것처럼": "<p><code>-는 것처럼</code> means 'as if' or 'like', implying a similarity, not a known fact.</p>",
+                    "-는 대로": "<p><code>-는 대로</code> means 'according to' or 'as soon as', which does not fit the context.</p>"
+                }
+            },
+            "example": {
+                "korean": "보다시피 요즘 직장인들은 바빠요.",
+                "english": "As you can see, employees these days are busy."
+            }
+        },
+        {
+            "question": "따님에게 귀여운 이름을 지었______.",
+            "hint": "Expressing something you heard or observed in the past, often with mild admiration or surprise.",
+            "options": ["-더군요", "-았어요", "-는군요"],
+            "answer": "-더군요",
+            "explanation": {
+                "correct": "<p><code>-더군요</code> is a retrospective ending used to state a fact the speaker personally observed or learned in the past. It often carries a nuance of mild surprise or admiration. 'I noticed you gave your daughter a cute name'.</p>",
+                "incorrect": {
+                    "-았어요": "<p>The simple past tense is a neutral statement of fact, lacking the nuance of personal observation.</p>",
+                    "-는군요": "<p><code>-는군요</code> expresses a realization at the present moment, while '-더군요' refers to a past observation.</p>"
+                }
+            },
+            "example": {
+                "korean": "따님에게 귀여운 이름을 지었더군요.",
+                "english": "I heard that you have given your daughter a very cute name."
+            }
+        },
+        {
+            "question": "강의에 늦었______ 강사님이 야단치셨다.",
+            "hint": "The first action is the direct cause or occasion for the second action.",
+            "options": ["-더니", "-아서", "-(으)니까"],
+            "answer": "-더니",
+            "explanation": {
+                "correct": "<p><code>-더니</code> is used when the first clause, often something the speaker did or observed, becomes the direct cause of the result in the second clause. 'I was late for the lecture, and as a result, the instructor scolded me'.</p>",
+                "incorrect": {
+                    "-아서": "<p><code>-아서</code> is a general reason. '-더니' is more specific in showing a direct consequential link between two past events, often with a sense of discovery or contrast.</p>",
+                    "-(으)니까": "<p><code>-(으)니까</code> is also a reason, but '-더니' often connects the events more closely in a narrative sequence.</p>"
+                }
+            },
+            "example": {
+                "korean": "강의에 늦었더니 강사님이 야단치셨다.",
+                "english": "I was late for class and then the teacher scolded me."
+            }
+        },
+        {
+            "question": "그 남자는 경찰에 잡혔______.",
+            "hint": "Recalling and reporting a fact that you heard or learned in the past.",
+            "options": ["-더라", "-다고 들었다", "-대"],
+            "answer": "-더라",
+            "explanation": {
+                "correct": "<p><code>-더라</code> is a retrospective ending used informally to state a fact that the speaker personally saw, heard, or felt in the past. 'I recall hearing that the man was caught by the police'.</p>",
+                "incorrect": {
+                    "-다고 들었다": "<p><code>-다고 들었다</code> ('I heard that...') is also correct but is a more direct statement of the source of information. '-더라' is more about recalling the fact itself.</p>",
+                    "-대": "<p><code>-대</code> is a contraction for '-다고 해' (they say) and is also very similar.</p>"
+                }
+            },
+            "example": {
+                "korean": "그 남자는 경찰에 잡혔더라.",
+                "english": "I heard the guy was caught by the police."
+            }
+        },
+        {
+            "question": "서울은 도쿄보다 춥______.",
+            "hint": "Expressing a fact that the speaker personally experienced or discovered.",
+            "options": ["-더라고요", "-ㅂ/습니다", "-네요"],
+            "answer": "-더라고요",
+            "explanation": {
+                "correct": "<p><code>-더라고요</code> is used to report a fact that the speaker directly experienced or witnessed in the past. 'Based on my experience, Seoul was colder than Tokyo'.</p>",
+                "incorrect": {
+                    "-ㅂ/습니다": "<p>The formal ending is a simple statement of fact, without the nuance of personal experience.</p>",
+                    "-네요": "<p><code>-네요</code> expresses a realization at the present moment, not something recalled from a past experience.</p>"
+                }
+            },
+            "example": {
+                "korean": "서울은 도쿄보다 춥더라고요.",
+                "english": "Seoul was colder than Tokyo."
+            }
+        },
+        {
+            "question": "힘겨운 일이 있______ 참는다.",
+            "hint": "Conceding a condition, but stating that it does not affect the main clause; 'even if'.",
+            "options": ["-더라도", "-(으)면", "-(으)니까"],
+            "answer": "-더라도",
+            "explanation": {
+                "correct": "<p><code>-더라도</code> means 'even if' or 'even though'. It's used to say that despite the condition in the first clause, the action in the second clause will still happen. 'Even if there is a difficult task, I endure it'.</p>",
+                "incorrect": {
+                    "-(으)면": "<p><code>-(으)면</code> ('if') sets a simple condition, not a concessive one.</p>",
+                    "-(으)니까": "<p><code>-(으)니까</code> ('because') gives a reason, which is the opposite of the intended meaning.</p>"
+                }
+            },
+            "example": {
+                "korean": "힘겨운 일이 있더라도 참는다.",
+                "english": "I endure even when I am having a hard time."
+            }
+        },
+        {
+            "question": "내가 다니______ 중학교는 지금은 없어요.",
+            "hint": "Modifying a noun with a past action or state that was repeated or continued for some time.",
+            "options": ["-던", "-(으)ㄴ", "-았/었던"],
+            "answer": "-던",
+            "explanation": {
+                "correct": "<p><code>-던</code> is a retrospective modifier used for actions or states that happened repeatedly or continuously in the past but are now finished. 'The middle school I used to attend...'.</p>",
+                "incorrect": {
+                    "-(으)ㄴ": "<p><code>-(으)ㄴ</code> is a simple past modifier for a completed action ('the school I attended once').</p>",
+                    "-았/었던": "<p><code>-았/었던</code> is also a retrospective modifier, very similar to '-던'. '-던' can sometimes imply the action was incomplete, while '-았/었던' emphasizes that the repeated action is definitely over.</p>"
+                }
+            },
+            "example": {
+                "korean": "내가 다니던 중학교는 지금은 없어요.",
+                "english": "The middle school I used to go to is not there anymore."
+            }
+        },
+        {
+            "question": "길이 막히______ 사고라도 났나?",
+            "hint": "Stating an observed situation as a background for a following question or guess.",
+            "options": ["-던데", "-는데", "-고"],
+            "answer": "-던데",
+            "explanation": {
+                "correct": "<p><code>-던데</code> is used when the speaker recalls a past observation and uses it as the context for a question, suggestion, or contrasting statement. 'I saw the road was blocked, so I wonder if there was an accident'.</p>",
+                "incorrect": {
+                    "-는데": "<p><code>-는데</code> is the present tense version, providing background for a current situation. '-던데' is specifically for recalling a past observation.</p>",
+                    "-고": "<p><code>-고</code> ('and') simply connects two clauses without providing the background context.</p>"
+                }
+            },
+            "example": {
+                "korean": "길이 막히던데 사고라도 났나?",
+                "english": "I found a traffic jam. Was there an accident?"
+            }
+        },
+        {
+            "question": "이 은혜를 갚______ 항상 최선을 다하겠습니다.",
+            "hint": "Expressing determination to do something so that a result is achieved.",
+            "options": ["-도록", "-게", "-기 위해서"],
+            "answer": "-도록",
+            "explanation": {
+                "correct": "<p><code>-도록</code> can mean 'so that' or 'to the extent that'. Here, it expresses the goal or standard that the speaker will strive to meet. 'I will do my best so that I can repay this favor'.</p>",
+                "incorrect": {
+                    "-게": "<p><code>-게</code> is a general adverbial ending and is less specific about the purpose or goal.</p>",
+                    "-기 위해서": "<p><code>-기 위해서</code> ('in order to') also expresses purpose, but '-도록' often focuses more on achieving the resulting state or degree.</p>"
+                }
+            },
+            "example": {
+                "korean": "이 은혜를 갚도록 항상 최선을 다하겠습니다.",
+                "english": "I will try my best to return this favor."
+            }
+        },
+        {
+            "question": "좋______ 싫______ 수능은 봐야 한다.",
+            "hint": "Expressing that it doesn't matter which option is chosen; 'whether... or...'.",
+            "options": ["-든지 -든지", "-거나 -거나", "-고 -고"],
+            "answer": "-든지 -든지",
+            "explanation": {
+                "correct": "<p><code>-든지 -든지</code> is used to show that any choice from a set of options is fine, as it won't affect the outcome. 'Whether you like it or dislike it, you have to take the exam'.</p>",
+                "incorrect": {
+                    "-거나 -거나": "<p><code>-거나 -거나</code> is also used for 'or' but typically connects alternative actions. '-든지' is better for contrasting states or qualities.</p>",
+                    "-고 -고": "<p><code>-고 -고</code> means 'and', not 'or'.</p>"
+                }
+            },
+            "example": {
+                "korean": "좋든지 싫든지 수능 봐야 한다.",
+                "english": "No matter if I wish or not, I need to take the university entrance examination."
+            }
+        },
+        {
+            "question": "미친 ______ 춤췄다.",
+            "hint": "Expressing that something is 'like' or 'as if' something else.",
+            "options": ["-듯이", "-처럼", "-같이"],
+            "answer": "-듯이",
+            "explanation": {
+                "correct": "<p><code>-듯이</code> is used to mean 'as if' or 'like', often connecting a verb or adjective to the following clause to create a simile. 'I danced as if I were crazy'.</p>",
+                "incorrect": {
+                    "-처럼": "<p><code>-처럼</code> is used with nouns ('미친 사람처럼' - 'like a crazy person'). '-듯이' is used with verb/adjective stems.</p>",
+                    "-같이": "<p><code>-같이</code> is also used with nouns and is very similar to '-처럼'.</p>"
+                }
+            },
+            "example": {
+                "korean": "미친 듯이 춤췄다.",
+                "english": "I danced like a crazy person."
+            }
+        },
+        {
+            "question": "밥은 못 먹었지만 커피______ 마실래요?",
+            "hint": "Suggesting a second-best option when the first choice is not available.",
+            "options": ["-(이)라도", "-나", "-만"],
+            "answer": "-(이)라도",
+            "explanation": {
+                "correct": "<p><code>-(이)라도</code> is used to suggest an alternative that is not the best, but is still acceptable. 'I couldn't eat a meal, but would you like to at least drink some coffee?'.</p>",
+                "incorrect": {
+                    "-나": "<p><code>-나</code> can also mean 'or something', but '-(이)라도' better captures the nuance of it being a second-best choice.</p>",
+                    "-만": "<p><code>-만</code> means 'only', which is the opposite of the intended meaning.</p>"
+                }
+            },
+            "example": {
+                "korean": "이 문제지라도 풀어볼래요?",
+                "english": "Would you like to at least solve this problem sheet?"
+            }
+        },
+        {
+            "question": "중고는 신제품______.",
+            "hint": "Expressing that something is inferior to something else; 'not as good as...'.",
+            "options": ["-만 못하다", "-보다 못하다", "-만큼 안 좋다"],
+            "answer": "-만 못하다",
+            "explanation": {
+                "correct": "<p><code>-만 못하다</code> is a set phrase meaning 'is not as good as' or 'is inferior to'. It's a common way to compare the quality of two things.</p>",
+                "incorrect": {
+                    "-보다 못하다": "<p><code>-보다 못하다</code> has the same meaning and is also correct. '-만 못하다' is a very frequently used idiomatic expression.</p>",
+                    "-만큼 안 좋다": "<p><code>-만큼 안 좋다</code> means 'is not as good as the degree of...', which is grammatically correct but less natural than the set phrase.</p>"
+                }
+            },
+            "example": {
+                "korean": "중고는 신제품만 못해요.",
+                "english": "Second-hand is not as good as a new product."
+            }
+        },
+        {
+            "question": "얼굴표정이 어제보다 밝아 ______.",
+            "hint": "Expressing an appearance or guess based on what you see; 'seems' or 'looks'.",
+            "options": ["-아/어 보이다", "-ㄴ/은 것 같다", "-나 보다"],
+            "answer": "-아/어 보이다",
+            "explanation": {
+                "correct": "<p><code>-아/어 보이다</code> is used to express how something or someone 'looks' or 'appears' based on visual evidence. 'Your expression looks brighter than yesterday'.</p>",
+                "incorrect": {
+                    "-ㄴ/은 것 같다": "<p><code>-ㄴ/은 것 같다</code> is a more general guess ('I think it is brighter'). '-아/어 보이다' is specifically about visual appearance.</p>",
+                    "-나 보다": "<p><code>-나 보다</code> is an assumption based on a fact. It's similar, but '-아/어 보이다' is the most natural choice for describing a visual impression.</p>"
+                }
+            },
+            "example": {
+                "korean": "얼굴표정이 어제보다 밝아 보여요.",
+                "english": "You seem to feel better than yesterday."
+            }
+        },
+        {
+            "question": "나이가 들어서 ______ 몸이 예전 같지 않다.",
+            "hint": "Supposing a reason for a situation; 'perhaps because...'.",
+            "options": ["-아/어서 그런지", "-기 때문에", "-(으)니까"],
+            "answer": "-아/어서 그런지",
+            "explanation": {
+                "correct": "<p><code>-아/어서 그런지</code> is used when the speaker is guessing the reason for a certain situation. It implies uncertainty. 'Perhaps because I'm getting older, my body isn't what it used to be'.</p>",
+                "incorrect": {
+                    "-기 때문에": "<p><code>-기 때문에</code> states a definite reason, without the nuance of guessing.</p>",
+                    "-(으)니까": "<p><code>-(으)니까</code> also states a reason, but '-아/어서 그런지' is the specific pattern for expressing a supposed cause.</p>"
+                }
+            },
+            "example": {
+                "korean": "나이가 들어서 그런지 몸이 예전같지 않다.",
+                "english": "Probably because I am getting old, I feel not as strong as before."
+            }
+        },
+        {
+            "question": "설명을 들어______ 이해 못 하겠어요.",
+            "hint": "Expressing that the action in the second clause happens despite the action in the first; 'even if'.",
+            "options": ["-아/어도", "-지만", "-(으)ㄴ데도"],
+            "answer": "-아/어도",
+            "explanation": {
+                "correct": "<p><code>-아/어도</code> is a very common way to say 'even if' or 'even though'. It shows that the first action does not prevent the second one from happening.</p>",
+                "incorrect": {
+                    "-지만": "<p><code>-지만</code> ('but') connects two contrasting facts. '-아/어도' is better for hypothetical or actual conditions that don't affect the outcome.</p>",
+                    "-(으)ㄴ데도": "<p><code>-(으)ㄴ데도</code> also means 'despite', but '-아/어도' is often more versatile and common in everyday speech for this type of sentence.</p>"
+                }
+            },
+            "example": {
+                "korean": "설명 들어도 이해 못 하겠어요.",
+                "english": "I can't understand even after listening to the explanation."
+            }
         }
 
     ]
