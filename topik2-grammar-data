@@ -1309,6 +1309,330 @@
                 "korean": "집에 가는 길에 빵을 사 왔어요.",
                 "english": "I bought bread on my way home."
             }
+        },
+
+        {
+            "question": "여기서 타면 되______?",
+            "hint": "A gentle or informal way of asking a question.",
+            "options": ["-나(요)?", "-는가(요)?", "-ㅂ/습니까?"],
+            "answer": "-나(요)?",
+            "explanation": {
+                "correct": "<p><code>-나(요)?</code> is used to ask questions in a soft, gentle, and somewhat indirect manner. It's common in conversation when asking about something you are unsure of. It's used with adjectives, '이다', and past tense verbs.</p>",
+                "incorrect": {
+                    "-는가(요)?": "<p><code>-는가(요)?</code> is similar but is used with action verbs in the present tense. Since '되다' here functions more like a state, '-나(요)?' is more natural.</p>",
+                    "-ㅂ/습니까?": "<p><code>-ㅂ/습니까?</code> is a formal and direct way of asking a question, which is different from the softer nuance of '-나(요)?'.</p>"
+                }
+            },
+            "example": {
+                "korean": "여기서 타면 되나?",
+                "english": "Is it okay if I get on here? / Is it here where we ride?"
+            }
+        },
+        {
+            "question": "엄마가 시험은 언제______ 저한테 물어봤어요.",
+            "hint": "Reporting a question that someone else asked.",
+            "options": ["-냐고 하다", "-(으)라고 하다", "-는지"],
+            "answer": "-냐고 하다",
+            "explanation": {
+                "correct": "<p><code>-냐고 하다</code> is the correct form for quoting a question. 'Mom asked me, \"When is the exam?\"'.</p>",
+                "incorrect": {
+                    "-(으)라고 하다": "<p><code>-(으)라고 하다</code> is for quoting a command ('She told me to ask when the exam is').</p>",
+                    "-는지": "<p><code>-는지</code> is for embedding a question into another clause ('She knows when the exam is'), not for directly reporting the speech act of asking.</p>"
+                }
+            },
+            "example": {
+                "korean": "엄마가 시험은 언제냐고 저한테 물어봤어요.",
+                "english": "My mom asked me when the exam was."
+            }
+        },
+        {
+            "question": "숙제하______ 삼촌을 만날 시간이 없었다.",
+            "hint": "Giving the first action as a reason for not being able to do the second action.",
+            "options": ["-느라고", "-아서", "-기 때문에"],
+            "answer": "-느라고",
+            "explanation": {
+                "correct": "<p><code>-느라고</code> is used when the effort or time spent on the first action is the direct cause for a negative result in the second clause (usually not being able to do something). 'Because I was busy doing homework...'.</p>",
+                "incorrect": {
+                    "-아서": "<p><code>-아서</code> is a general reason. While possible, '-느라고' is more specific and natural for explaining why you couldn't do something else because you were occupied.</p>",
+                    "-기 때문에": "<p><code>-기 때문에</code> also gives a reason but is more objective. '-느라고' is often used for personal excuses or reasons.</p>"
+                }
+            },
+            "example": {
+                "korean": "숙제하느라고 삼촌을 만날 시간이 없었다.",
+                "english": "I was busy with homework so I didn't have time to meet my uncle."
+            }
+        },
+        {
+            "question": "연기하는 ______ 기침해버렸다.",
+            "hint": "Expressing that something happened in the middle of doing another action.",
+            "options": ["-는 중에", "-(으)면서", "-다가"],
+            "answer": "-는 중에",
+            "explanation": {
+                "correct": "<p><code>-는 중에</code> literally means 'in the middle of doing...'. It's perfect for describing an event that occurs during an ongoing process.</p>",
+                "incorrect": {
+                    "-(으)면서": "<p><code>-(으)면서</code> implies two actions are performed by the same person simultaneously. You can't actively act and cough at the exact same time in this context.</p>",
+                    "-다가": "<p><code>-다가</code> implies an interruption where the first action stops and the second one begins. '-는 중에' is better for something that happens *during* the first action without necessarily stopping it.</p>"
+                }
+            },
+            "example": {
+                "korean": "연기하는 중에 기침해버렸다.",
+                "english": "I accidentally coughed when I was in the middle of acting."
+            }
+        },
+        {
+            "question": "집에 가는 ______ 빵을 사 왔어요.",
+            "hint": "Expressing an action that was done while on the way to or from somewhere.",
+            "options": ["-는 길에", "-(으)면서", "-는 중에"],
+            "answer": "-는 길에",
+            "explanation": {
+                "correct": "<p><code>-는 길에</code> is the specific pattern for 'on the way'. 'On my way home, I bought some bread'.</p>",
+                "incorrect": {
+                    "-(으)면서": "<p><code>-(으)면서</code> means doing two actions at the exact same time.</p>",
+                    "-는 중에": "<p><code>-는 중에</code> means 'in the middle of'. While similar, '-는 길에' is the fixed, natural expression for 'on the way'.</p>"
+                }
+            },
+            "example": {
+                "korean": "집에 가는 길에 빵을 사 왔어요.",
+                "english": "I bought bread on my way home."
+            }
+        },
+        {
+            "question": "바라는 ______ 이루어진다.",
+            "hint": "Expressing that something happens 'according to' or 'just as' something else.",
+            "options": ["-는 대로", "-는 만큼", "-(으)면"],
+            "answer": "-는 대로",
+            "explanation": {
+                "correct": "<p><code>-는 대로</code> means 'according to' or 'in accordance with'. It expresses that the second clause happens just as described in the first clause. 'It comes true just as you wish'.</p>",
+                "incorrect": {
+                    "-는 만큼": "<p><code>-는 만큼</code> expresses proportion ('as much as you wish'), which is a slightly different nuance.</p>",
+                    "-(으)면": "<p><code>-(으)면</code> ('if') sets up a simple condition, but doesn't have the meaning of 'in accordance with'.</p>"
+                }
+            },
+            "example": {
+                "korean": "바라는 대로 이루어진다.",
+                "english": "You can become as you wish."
+            }
+        },
+        {
+            "question": "술을 마시는 ______ 녹차를 마시자.",
+            "hint": "Suggesting an alternative action; 'instead of...'",
+            "options": ["-는 대신에", "-지 말고", "-(으)ㄹ 바에야"],
+            "answer": "-는 대신에",
+            "explanation": {
+                "correct": "<p><code>-는 대신에</code> means 'instead of' or 'in place of'. It's used to offer an alternative action. 'Instead of drinking alcohol, let's drink green tea'.</p>",
+                "incorrect": {
+                    "-지 말고": "<p><code>-지 말고</code> means 'don't do A and do B instead'. It's a command, whereas '-는 대신에' is used for general substitution or suggestions.</p>",
+                    "-(으)ㄹ 바에야": "<p><code>-(으)ㄹ 바에야</code> means 'if I have to do A (which is bad), I'd rather do B'. It's used when choosing the lesser of two evils.</p>"
+                }
+            },
+            "example": {
+                "korean": "술을 마시는 대신에 녹차를 마시자.",
+                "english": "Let's drink green tea instead of alcohol."
+            }
+        },
+        {
+            "question": "버스가 늦게 온 ______ 탈 수 있었다.",
+            "hint": "Giving a positive reason for a good outcome; 'thanks to...'",
+            "options": ["-는 덕분에", "-(으)ㄴ 탓에", "-는 바람에"],
+            "answer": "-는 덕분에",
+            "explanation": {
+                "correct": "<p><code>-는 덕분에</code> is specifically used when the reason in the first clause leads to a positive or desirable outcome in the second. 'Thanks to the bus being late, I was able to catch it'.</p>",
+                "incorrect": {
+                    "-(으)ㄴ 탓에": "<p><code>-(으)ㄴ 탓에</code> is used for reasons that lead to a *negative* outcome.</p>",
+                    "-는 바람에": "<p><code>-는 바람에</code> is also used for reasons that lead to a *negative* outcome.</p>"
+                }
+            },
+            "example": {
+                "korean": "버스가 늦게 온 덕분에 탈 수 있었다.",
+                "english": "I was able to ride the bus thanks to the fact that it was delayed."
+            }
+        },
+        {
+            "question": "공부를 안 하는 ______ 성적이 떨어졌어요.",
+            "hint": "Giving a reason for a negative outcome, often one that was unexpected.",
+            "options": ["-는 바람에", "-(으)ㄴ 탓에", "-기 때문에"],
+            "answer": "-는 바람에",
+            "explanation": {
+                "correct": "<p><code>-는 바람에</code> is used when an unexpected action or situation causes a negative result. 'Because I didn't study (and as a negative consequence), my grades dropped'.</p>",
+                "incorrect": {
+                    "-(으)ㄴ 탓에": "<p><code>-(으)ㄴ 탓에</code> also gives a negative reason but often with a nuance of blaming. '-는 바람에' focuses more on the unexpected negative consequence.</p>",
+                    "-기 때문에": "<p><code>-기 때문에</code> is a neutral reason and lacks the negative nuance.</p>"
+                }
+            },
+            "example": {
+                "korean": "공부를 안 하는 바람에 성적이 떨어졌어요.",
+                "english": "My grade dropped because I did not study."
+            }
+        },
+        {
+            "question": "연습하는 ______ 치고 오디션에 간다.",
+            "hint": "Doing something 'considering it as' or 'treating it as' something else.",
+            "options": ["-는 셈 치다", "-(으)려고", "-는 척하다"],
+            "answer": "-는 셈 치다",
+            "explanation": {
+                "correct": "<p><code>-는 셈 치다</code> is a pattern that means you'll do an action while considering it as something else, even if it's not actually that thing. 'I'll go to the audition, treating it as practice'.</p>",
+                "incorrect": {
+                    "-(으)려고": "<p><code>-(으)려고</code> ('in order to') states a direct purpose, which is different from this nuance.</p>",
+                    "-는 척하다": "<p><code>-는 척하다</code> means 'to pretend', which implies deceiving others. '-는 셈 치다' is about one's own mindset.</p>"
+                }
+            },
+            "example": {
+                "korean": "연습하는 셈 치고 오디션에 간다.",
+                "english": "I take auditions considering them as practices."
+            }
+        },
+        {
+            "question": "전문가라고 해도 실패하는 ______ 있어요.",
+            "hint": "Expressing that something is possible, 'there can be cases where...'",
+            "options": ["-는 수가 있다", "-(으)ㄹ 수 있다", "-기도 한다"],
+            "answer": "-는 수가 있다",
+            "explanation": {
+                "correct": "<p><code>-는 수가 있다</code> is used to indicate that a certain situation or outcome is possible, even if it's not common. 'Even for experts, there are cases where they fail'.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 수 있다": "<p><code>-(으)ㄹ 수 있다</code> means 'can' in a more general sense of ability or possibility. '-는 수가 있다' is more specific to 'there are instances of...'.</p>",
+                    "-기도 한다": "<p><code>-기도 한다</code> means 'sometimes does...', which is about frequency, not possibility.</p>"
+                }
+            },
+            "example": {
+                "korean": "전문가라고 해도 실패하는 수가 있어요.",
+                "english": "Even an expert can fail."
+            }
+        },
+        {
+            "question": "지금 직장에 가는 ______.",
+            "hint": "Expressing that an action is currently in progress.",
+            "options": ["-는 중이다", "-고 있다", "-는 길이다"],
+            "answer": "-는 중이다",
+            "explanation": {
+                "correct": "<p><code>-는 중이다</code> means 'to be in the middle of doing...'. It emphasizes that the action is currently happening.</p>",
+                "incorrect": {
+                    "-고 있다": "<p><code>-고 있다</code> is the standard present progressive tense. '-는 중이다' is very similar and often interchangeable, but it can sometimes put more emphasis on being in the very middle of the process.</p>",
+                    "-는 길이다": "<p><code>-는 길이다</code> specifically means 'to be on the way'.</p>"
+                }
+            },
+            "example": {
+                "korean": "지금 직장에 가는 중이에요.",
+                "english": "I am on the way going to my office."
+            }
+        },
+        {
+            "question": "아이들이 떠드는 ______ 집중할 수 없었어요.",
+            "hint": "Giving a reason for a negative outcome, often related to a noisy or chaotic situation.",
+            "options": ["-는 통에", "-는 바람에", "-느라고"],
+            "answer": "-는 통에",
+            "explanation": {
+                "correct": "<p><code>-는 통에</code> is used when a chaotic, noisy, or distracting situation is the reason for a negative result. It fits perfectly with 'because the children were making a fuss...'.</p>",
+                "incorrect": {
+                    "-는 바람에": "<p><code>-는 바람에</code> is for unexpected negative reasons, but '-는 통에' is more specific to chaotic or distracting situations.</p>",
+                    "-느라고": "<p><code>-느라고</code> is used when being busy with one action prevents you from doing another. It doesn't fit the context of a distracting environment.</p>"
+                }
+            },
+            "example": {
+                "korean": "아이들이 떠드는 통에 집중할 수 없었어요.",
+                "english": "I was not able to concentrate because the children were too noisy."
+            }
+        },
+        {
+            "question": "저는 돈을 아끼는 ______.",
+            "hint": "Expressing that something tends to be a certain way, or belongs to a certain category.",
+            "options": ["-는 편이다", "-는 경향이 있다", "-는 편이다"],
+            "answer": "-는 편이다",
+            "explanation": {
+                "correct": "<p><code>-는 편이다</code> is used to state that something generally belongs to a certain side or category. 'I am on the side of saving money' or 'I tend to save money'.</p>",
+                "incorrect": {
+                    "-는 경향이 있다": "<p><code>-는 경향이 있다</code> means 'to have a tendency to...'. It is very similar and often interchangeable with '-는 편이다'.</p>",
+                    "-(으)ㄴ/는 셈이다": "<p>This means 'it's like...' or 'it amounts to...', which is a different meaning.</p>"
+                }
+            },
+            "example": {
+                "korean": "저는 돈을 아끼는 편이에요.",
+                "english": "I tend to save money."
+            }
+        },
+        {
+            "question": "내가 아는 ______ 그것은 사실이에요.",
+            "hint": "Limiting the scope of a statement; 'as far as...'",
+            "options": ["-는 한", "-는 데에는", "-는 것에 따르면"],
+            "answer": "-는 한",
+            "explanation": {
+                "correct": "<p><code>-는 한</code> is used to set a boundary or condition for the following statement. 'As long as' or 'as far as'. 'As far as I know, that is true'.</p>",
+                "incorrect": {
+                    "-는 데에는": "<p><code>-는 데에는</code> means 'in the aspect of doing...' or 'when it comes to...'.</p>",
+                    "-는 것에 따르면": "<p><code>-는 것에 따르면</code> means 'according to the fact that...'.</p>"
+                }
+            },
+            "example": {
+                "korean": "내가 아는 한 그것은 사실이에요.",
+                "english": "As far as I know, it is true."
+            }
+        },
+        {
+            "question": "회사에 다니는 ______ 부업도 한다.",
+            "hint": "Expressing two contrasting or parallel actions/states; 'on one hand... on the other hand...'",
+            "options": ["-는 한편", "-(으)면서", "-는 반면"],
+            "answer": "-는 한편",
+            "explanation": {
+                "correct": "<p><code>-는 한편</code> is used to present two different, often contrasting or parallel, aspects or actions related to the same subject. 'On one hand I work at a company, and on the other hand I also have a side job'.</p>",
+                "incorrect": {
+                    "-(으)면서": "<p><code>-(으)면서</code> indicates two actions happening at the same time.</p>",
+                    "-는 반면": "<p><code>-는 반면</code> is used for direct contrast between two subjects or two qualities of one subject. '-는 한편' is better for listing two parallel activities.</p>"
+                }
+            },
+            "example": {
+                "korean": "회사에 다니는 한편 부업도 한다.",
+                "english": "I am working at a company and also doing a side job."
+            }
+        },
+        {
+            "question": "술______ 차도 못 마셨어요.",
+            "hint": "Emphasizing a negative by stating 'not even the lesser thing, let alone the greater thing'.",
+            "options": ["-는/은커녕", "-은 물론이고", "-도"],
+            "answer": "-는/은커녕",
+            "explanation": {
+                "correct": "<p><code>-는/은커녕</code> is used to say 'let alone A, not even B'. It emphasizes the impossibility by highlighting that even a simpler or lesser thing (tea) wasn't possible, let alone the more significant thing (alcohol).</p>",
+                "incorrect": {
+                    "-은 물론이고": "<p><code>-은 물론이고</code> means 'not only... but also...'. It's used for positive additions, not negatives.</p>",
+                    "-도": "<p><code>-도</code> ('even') could be used ('술도 차도...'), but '-는/은커녕' provides a stronger, more structured emphasis.</p>"
+                }
+            },
+            "example": {
+                "korean": "술은커녕 차도 못 마셨어요.",
+                "english": "I could not drink alcohol, not even tea."
+            }
+        },
+        {
+            "question": "이 애기는 벌써 걷______.",
+            "hint": "Expressing mild surprise or a new realization upon observing something.",
+            "options": ["-는구나", "-네", "-는다"],
+            "answer": "-는구나",
+            "explanation": {
+                "correct": "<p><code>-는구나</code> is a sentence ending that expresses a new realization or mild surprise, often said to oneself. 'Oh, I see this baby is already walking!'.</p>",
+                "incorrect": {
+                    "-네": "<p><code>-네(요)</code> is very similar and also expresses a new realization. '-구나' can sometimes feel a bit more like a personal, internal realization.</p>",
+                    "-는다": "<p><code>-는다</code> is a plain form statement of fact, lacking the nuance of surprise.</p>"
+                }
+            },
+            "example": {
+                "korean": "이 애기는 벌써 걷는구나.",
+                "english": "I see the baby is already walking."
+            }
+        },
+        {
+            "question": "기분 나쁘______?",
+            "hint": "An informal, blunt way of asking a question to a close friend or someone younger.",
+            "options": ["-니?", "-니", "-어?"],
+            "answer": "-니?",
+            "explanation": {
+                "correct": "<p><code>-니?</code> is an intimate question ending used with friends or people younger than the speaker. It can sometimes sound a bit blunt or demanding depending on the context.</p>",
+                "incorrect": {
+                    "-어?": "<p><code>-어?</code> is another common intimate question ending (e.g., 기분 나빠?). Both can be used, but '-니?' is a distinct form often learned at the intermediate level.</p>",
+                    "-나?": "<p><code>-나?</code> is used for asking oneself a question or for a softer inquiry, not a direct question to someone else like this.</p>"
+                }
+            },
+            "example": {
+                "korean": "기분 나쁘니?",
+                "english": "Do you feel uncomfortable?"
+            }
         }
 
     ]
