@@ -339,7 +339,331 @@
                 "korean": "돈이 부족할 리가 없어요.",
                 "english": "There is no way the money is not enough."
             }
+        },
+         {
+            "question": "그에게 사과할 ______ 해서 편지를 썼어요.",
+            "hint": "Doing one action with two or more purposes in mind.",
+            "options": ["-(으)ㄹ 겸", "-(으)면서", "-고"],
+            "answer": "-(으)ㄹ 겸",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 겸</code> is used to indicate that an action has two or more intentions. 'I wrote a letter for the purpose of X and also for the purpose of apologizing'.</p>",
+                "incorrect": {
+                    "-(으)면서": "<p><code>-(으)면서</code> indicates two actions happening simultaneously, which isn't the meaning here.</p>",
+                    "-고": "<p><code>-고</code> just lists actions sequentially ('I apologized and wrote a letter'), losing the nuance of dual purpose.</p>"
+                }
+            },
+            "example": {
+                "korean": "그에게 사과할 겸 해서 편지를 썼어요.",
+                "english": "I wrote a letter and also to apologize."
+            }
+        },
+        {
+            "question": "돈이 부족할 ______.",
+            "hint": "Strongly denying a possibility; saying 'There is no way...'.",
+            "options": ["-(으)ㄹ 리가 없다", "-(으)ㄹ 수 없다", " 아닐 것이다"],
+            "answer": "-(으)ㄹ 리가 없다",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 리가 없다</code> expresses strong disbelief or impossibility based on a logical reason. 'There's no logical reason for the money to be insufficient, so there's no way it is'.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 수 없다": "<p><code>-(으)ㄹ 수 없다</code> indicates a simple lack of ability or possibility ('I can't...'), which is less emphatic than '-(으)ㄹ 리가 없다'.</p>",
+                    " 아닐 것이다": "<p><code>아닐 것이다</code> is a simple guess ('It probably isn't...'), which is much weaker than the strong denial of '-(으)ㄹ 리가 없다'.</p>"
+                }
+            },
+            "example": {
+                "korean": "돈이 부족할 리가 없어요.",
+                "english": "There is no way the money is not enough."
+            }
+        },
+        {
+            "question": "그 식당은 음식이 맛있어서 추천할 ______.",
+            "hint": "Indicating that an action is worthwhile or deserving.",
+            "options": ["-(으)ㄹ 만하다", "-(으)면 좋다", "-는 것이 좋다"],
+            "answer": "-(으)ㄹ 만하다",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 만하다</code> specifically means something is 'worth doing' or 'deserves to be done'. It fits perfectly here to say the restaurant is 'worth recommending'.</p>",
+                "incorrect": {
+                    "-(으)면 좋다": "<p><code>-(으)면 좋다</code> is a general recommendation ('it is good if you recommend it'), but it doesn't carry the specific meaning of being 'worthwhile'.</p>",
+                    "-는 것이 좋다": "<p><code>-는 것이 좋다</code> ('it is good to recommend') is also a general piece of advice, not an evaluation of worth.</p>"
+                }
+            },
+            "example": {
+                "korean": "타개책을 시도할 만합니다.",
+                "english": "It is worth attempting a breakthrough."
+            }
+        },
+        {
+            "question": "과음해서 의식을 잃어버릴 ______.",
+            "hint": "Expressing that something bad almost happened, but didn't.",
+            "options": ["-(으)ㄹ 뻔했다", "-(으)ㄹ 뻔하다", "-(으)려고 했다"],
+            "answer": "-(으)ㄹ 뻔했다",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 뻔했다</code> is the correct pattern. It means that an event, usually negative, 'almost happened'. It always uses the past tense.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 뻔하다": "<p>The non-past tense form is not typically used.</p>",
+                    "-(으)려고 했다": "<p><code>-(으)려고 했다</code> means 'I intended to do...', which is completely different. One does not intend to lose consciousness.</p>"
+                }
+            },
+            "example": {
+                "korean": "과음해서 의식을 잃어버릴 뻔했어요.",
+                "english": "I almost lost consciousness from overdrinking."
+            }
+        },
+        {
+            "question": "그 아기는 걸을 ______ 잘 달린다.",
+            "hint": "Adding another fact; 'not only A, but also B'.",
+            "options": ["-(으)ㄹ 뿐만 아니라", "-고", "-(으)며"],
+            "answer": "-(으)ㄹ 뿐만 아니라",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 뿐만 아니라</code> is the classic 'not only... but also...' structure, perfectly adding the fact that the baby runs well on top of walking.</p>",
+                "incorrect": {
+                    "-고": "<p><code>-고</code> ('and') simply connects two clauses sequentially. It lacks the emphasis of adding on an additional, often more impressive, fact.</p>",
+                    "-(으)며": "<p><code>-(으)며</code> is similar to '-고' but often used in more formal or written contexts. It also doesn't provide the 'not only' emphasis.</p>"
+                }
+            },
+            "example": {
+                "korean": "그 아기는 걸을 뿐만 아니라 잘 달린다.",
+                "english": "That baby not only walks well but also runs well."
+            }
+        },
+        {
+            "question": "국적이 다를 ______ 같은 인간이에요.",
+            "hint": "Expressing that something is 'just' or 'only' one thing and nothing more.",
+            "options": ["-(으)ㄹ 뿐이다", "-(으)ㄹ 뿐만 아니라", "-지만"],
+            "answer": "-(으)ㄹ 뿐이다",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 뿐이다</code> means 'it is only...' or 'it is just...'. It's used to emphasize that a certain fact is the only relevant one, minimizing other aspects. 'We just have different nationalities (that's the only difference)'.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 뿐만 아니라": "<p>This means 'not only', which is the opposite of the intended meaning.</p>",
+                    "-지만": "<p><code>-지만</code> ('but') would also work grammatically, but '-(으)ㄹ 뿐이다' provides a stronger nuance of minimizing the difference.</p>"
+                }
+            },
+            "example": {
+                "korean": "국적이 다를 뿐이지 같은 인간이에요.",
+                "english": "We just have different nationalities, but we're the same human beings."
+            }
+        },
+        {
+            "question": "시간이 없으니까 뛰어갈 ______.",
+            "hint": "Expressing that there is no other choice or option but to do something.",
+            "options": ["- 수밖에 없다", "-아야 한다", "-(으)면 된다"],
+            "answer": "- 수밖에 없다",
+            "explanation": {
+                "correct": "<p><code>- 수밖에 없다</code> literally means 'there is nothing but this choice'. It perfectly conveys the feeling of having no other option but to run because there's no time.</p>",
+                "incorrect": {
+                    "-아야 한다": "<p><code>-아야 한다</code> means 'must' or 'should'. It expresses obligation, but not the lack of other choices.</p>",
+                    "-(으)면 된다": "<p><code>-(으)면 된다</code> means 'it is okay if...' or 'you just have to...'. It implies a simple solution, not a situation where there are no alternatives.</p>"
+                }
+            },
+            "example": {
+                "korean": "시간이 없으니까 뛰어갈 수밖에 없다.",
+                "english": "We don't have much time, so there is no other choice than running."
+            }
+        },
+        {
+            "question": "놀라울 ______ 크게 외쳤다.",
+            "hint": "Expressing the degree or extent of an action, similar to 'so... that...'.",
+            "options": ["-(으)ㄹ 정도로", "-(으)ㄹ 만큼", "-게"],
+            "answer": "-(으)ㄹ 정도로",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 정도로</code> means 'to the extent that...' or 'to the degree that...'. It's used to describe how extreme an action is. 'He shouted to the extent that it was surprising'.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 만큼": "<p><code>-(으)ㄹ 만큼</code> is very similar and often interchangeable. However, '-(으)ㄹ 정도로' can sometimes feel more focused on the resulting state or degree.</p>",
+                    "-게": "<p><code>-게</code> is a common adverbial ending, but '-(으)ㄹ 정도로' provides a much more descriptive and emphatic sense of degree.</p>"
+                }
+            },
+            "example": {
+                "korean": "놀라울 정도로 크게 외쳤다.",
+                "english": "He shouted surprisingly loud."
+            }
+        },
+        {
+            "question": "너무 배가 고파서 쓰러질 ______.",
+            "hint": "Expressing being on the verge of a negative situation.",
+            "options": ["-(으)ㄹ 지경이다", "-(으)ㄹ 뻔했다", "-(으)려고 한다"],
+            "answer": "-(으)ㄹ 지경이다",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 지경이다</code> means 'to be on the verge of...' or 'to be in a state close to...'. It emphasizes an extreme, negative situation that is about to happen. 'I'm so hungry I'm on the verge of collapsing'.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 뻔했다": "<p><code>-(으)ㄹ 뻔했다</code> means it 'almost' happened but didn't. '-(으)ㄹ 지경이다' describes the current state of being close to it happening.</p>",
+                    "-(으)려고 한다": "<p><code>-(으)려고 한다</code> expresses intention ('I intend to collapse'), which makes no sense.</p>"
+                }
+            },
+            "example": {
+                "korean": "그녀가 화낼 지경이에요.",
+                "english": "She's almost mad."
+            }
+        },
+        {
+            "question": "빨래를 널 ______ 아기를 봐 줘.",
+            "hint": "Stating the speaker's intention as a reason for requesting something from the listener.",
+            "options": ["-(으)ㄹ 테니", "-(으)니까", "-(으)러"],
+            "answer": "-(으)ㄹ 테니",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 테니</code> is used when the speaker states their intention ('I will do X...') as the premise for asking or suggesting the listener do something else ('...so please do Y').</p>",
+                "incorrect": {
+                    "-(으)니까": "<p><code>-(으)니까</code> is a general reason, but '-(으)ㄹ 테니' is specific to the speaker's will or intention as the reason.</p>",
+                    "-(으)러": "<p><code>-(으)러</code> expresses the purpose of going somewhere, which doesn't fit here.</p>"
+                }
+            },
+            "example": {
+                "korean": "빨래를 널 테니까 애기를 봐줘.",
+                "english": "I will dry the laundry, so please look after the child."
+            }
+        },
+        {
+            "question": "지금쯤 집에 도착했을 ______.",
+            "hint": "Making a reasonable guess about a situation, often with the expectation that it should be true.",
+            "options": ["-(으)ㄹ 텐데", "-(으)ㄹ 것이다", "-(으)ㄹ 리가 없다"],
+            "answer": "-(으)ㄹ 텐데",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ 텐데</code> expresses a strong supposition or expectation about a situation. 'He should have arrived home by now...'. It often implies a slight contrast or question follows.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 것이다": "<p><code>-(으)ㄹ 것이다</code> is a more general future guess. '-(으)ㄹ 텐데' carries a stronger nuance of 'it should be the case'.</p>",
+                    "-(으)ㄹ 리가 없다": "<p><code>-(으)ㄹ 리가 없다</code> means 'there is no way...', which is the opposite of the intended meaning.</p>"
+                }
+            },
+            "example": {
+                "korean": "거기에 있을 텐데.",
+                "english": "It should be there."
+            }
+        },
+        {
+            "question": "우산을 가져올 ______.",
+            "hint": "Expressing regret about something you should have done but didn't.",
+            "options": ["-(으)ㄹ걸 그랬다", "-(으)ㄹ 뻔했다", "-았/었어야 했다"],
+            "answer": "-(으)ㄹ걸 그랬다",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ걸 그랬다</code> is a common expression of regret for not doing something. 'I should have brought an umbrella (but I didn't, and now I regret it)'.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 뻔했다": "<p><code>-(으)ㄹ 뻔했다</code> means you 'almost' did something, which is a different meaning.</p>",
+                    "-았/었어야 했다": "<p><code>-았/었어야 했다</code> also means 'should have done', but '-(으)ㄹ걸 그랬다' often feels more conversational and carries a stronger nuance of personal, mild regret.</p>"
+                }
+            },
+            "example": {
+                "korean": "우산 가져올 걸.",
+                "english": "I should have brought an umbrella."
+            }
+        },
+        {
+            "question": "길을 건널______ 고민했다.",
+            "hint": "Expressing indecision about whether to do an action or not.",
+            "options": ["-(으)ㄹ까 말까", "-(으)ㄹ지", "-(으)려고"],
+            "answer": "-(으)ㄹ까 말까",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ까 말까</code> is the set phrase for expressing indecision, literally meaning 'Should I do it, or should I not?'.</p>",
+                "incorrect": {
+                    "-(으)ㄹ지": "<p><code>-(으)ㄹ지</code> is used for general uncertainty about a future action ('I don't know if I will cross'), but '-(으)ㄹ까 말까' specifically captures the back-and-forth debate in one's mind.</p>",
+                    "-(으)려고": "<p><code>-(으)려고</code> expresses intention ('in order to cross'), not indecision.</p>"
+                }
+            },
+            "example": {
+                "korean": "길을 건널까 말까 고민했다.",
+                "english": "I wondered whether I should cross the street or not."
+            }
+        },
+        {
+            "question": "산이 높을______ 올라가기 힘들다.",
+            "hint": "Expressing that as one quality increases, another quality also increases.",
+            "options": ["-(으)ㄹ수록", "-(으)면", "-(으)니까"],
+            "answer": "-(으)ㄹ수록",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ수록</code> means 'the more A, the more B'. It shows that the intensity of the second clause increases along with the intensity of the first. 'The higher the mountain, the harder it is to climb'.</p>",
+                "incorrect": {
+                    "-(으)면": "<p><code>-(으)면</code> ('if') creates a simple condition, but doesn't express the proportional increase.</p>",
+                    "-(으)니까": "<p><code>-(으)니까</code> ('because') gives a reason, which is slightly different from showing a proportional relationship.</p>"
+                }
+            },
+            "example": {
+                "korean": "가면 갈수록 그 산길은 힘들어져요.",
+                "english": "The mountain road is getting harder as you go further."
+            }
+        },
+        {
+            "question": "내일 비가 올______.",
+            "hint": "Expressing a possibility or uncertainty; 'might' or 'could'.",
+            "options": ["-(으)ㄹ지도 모른다", "-(으)ㄹ 것이다", "-(으)ㄹ 수 있다"],
+            "answer": "-(으)ㄹ지도 모른다",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ지도 모른다</code> is the standard way to say 'might' or 'it may be that...'. It expresses a possibility that the speaker is not sure about.</p>",
+                "incorrect": {
+                    "-(으)ㄹ 것이다": "<p><code>-(으)ㄹ 것이다</code> expresses a stronger guess or prediction ('it will rain').</p>",
+                    "-(으)ㄹ 수 있다": "<p><code>-(으)ㄹ 수 있다</code> means 'can' or 'is able to', expressing ability or permission, not uncertainty about an event.</p>"
+                }
+            },
+            "example": {
+                "korean": "어떻게 편집해야할지 잘 모르겠어요.",
+                "english": "I don't know how I should edit it."
+            }
+        },
+        {
+            "question": "아무리 어려울______ 저는 해낼 겁니다.",
+            "hint": "Conceding a fact but then stating a contrasting, more important fact; 'even though'.",
+            "options": ["-(으)ㄹ지라도", "-(으)ㄴ들", "-아/어도"],
+            "answer": "-(으)ㄹ지라도",
+            "explanation": {
+                "correct": "<p><code>-(으)ㄹ지라도</code> is a literary or formal way to say 'even though' or 'no matter how...'. It's used to acknowledge a difficult condition before stating one's resolve.</p>",
+                "incorrect": {
+                    "-(으)ㄴ들": "<p><code>-(으)ㄴ들</code> also means 'even if', but it carries a strong rhetorical nuance that the action will be useless, which is the opposite of the intended meaning here.</p>",
+                    "-아/어도": "<p><code>-아/어도</code> is a more common, conversational way to say 'even if', but '-(으)ㄹ지라도' is often used in more formal or determined statements like this one.</p>"
+                }
+            },
+            "example": {
+                "korean": "아무리 어려울지라도 저는 해냅니다.",
+                "english": "No matter how tough it is, I will complete it."
+            }
+        },
+        {
+            "question": "아버지가 빨리 손을 씻으______ 했어요.",
+            "hint": "Reporting a command that someone else gave.",
+            "options": ["-(으)라고 하다", "-자고 하다", "-다고 하다"],
+            "answer": "-(으)라고 하다",
+            "explanation": {
+                "correct": "<p><code>-(으)라고 하다</code> is the correct form for quoting a command. 'Dad said, \"Wash your hands!\"'.</p>",
+                "incorrect": {
+                    "-자고 하다": "<p><code>-자고 하다</code> is used for quoting suggestions ('Let's wash our hands').</p>",
+                    "-다고 하다": "<p><code>-다고 하다</code> is used for quoting a simple statement ('He said that he washed his hands').</p>"
+                }
+            },
+            "example": {
+                "korean": "아버지가 빨리 손을 씻으라고 했어요.",
+                "english": "Dad told me to wash my hands quickly."
+            }
+        },
+        {
+            "question": "외출하______ 누나가 찾아왔다.",
+            "hint": "Expressing that you were about to do an action when another action interrupted it.",
+            "options": ["-(으)려다가", "-(으)러", "-(으)려고"],
+            "answer": "-(으)려다가",
+            "explanation": {
+                "correct": "<p><code>-(으)려다가</code> means 'was about to do A, but then B happened'. It shows an intended action that was interrupted or changed due to another event.</p>",
+                "incorrect": {
+                    "-(으)러": "<p><code>-(으)러</code> expresses the purpose of going somewhere ('I went out in order to...'), which doesn't fit.</p>",
+                    "-(으)려고": "<p><code>-(으)려고</code> expresses general intention ('I intended to go out...'), but '-(으)려다가' better captures the nuance of being interrupted mid-thought or mid-action.</p>"
+                }
+            },
+            "example": {
+                "korean": "외출하려다가 누나가 찾아왔다.",
+                "english": "When I was about to go out, my sister came in."
+            }
+        },
+        {
+            "question": "학교에 가______.",
+            "hint": "Expressing that you were just about to perform an action.",
+            "options": ["-(으)려던 참이다", "-(으)려고 한다", "-(으)ㄹ 것이다"],
+            "answer": "-(으)려던 참이다",
+            "explanation": {
+                "correct": "<p><code>-(으)려던 참이다</code> is a set phrase meaning 'I was just about to...' or 'I was just at the point of...'. It emphasizes the immediate timing of the intended action.</p>",
+                "incorrect": {
+                    "-(으)려고 한다": "<p><code>-(으)려고 한다</code> expresses a more general intention ('I intend to go to school').</p>",
+                    "-(으)ㄹ 것이다": "<p><code>-(으)ㄹ 것이다</code> is a simple future statement ('I will go to school').</p>"
+                }
+            },
+            "example": {
+                "korean": "학교에 가려던 참이에요.",
+                "english": "I was about to go to school."
+            }
         }
+
     ]
 }
 
